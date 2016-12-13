@@ -17,8 +17,8 @@ page_number: true
 
 |      | 手続き型                 | 関数型                         |
 |------|--------------------------|--------------------------------|
-| 動的 | |  |
-| 静的 | |  |
+| 動的型付け | |  |
+| 静的型付け | |  |
 
 ---
 
@@ -26,8 +26,8 @@ page_number: true
 
 |      | 手続き型                 | 関数型                         |
 |------|--------------------------|--------------------------------|
-| 動的 | Python, Ruby, JavaScript |  |
-| 静的 | |  |
+| 動的型付け | Python, Ruby, JavaScript |  |
+| 静的型付け | |  |
 
 ---
 
@@ -35,8 +35,8 @@ page_number: true
 
 |      | 手続き型                 | 関数型                         |
 |------|--------------------------|--------------------------------|
-| 動的 | Python, Ruby, JavaScript |  |
-| 静的 | C, C#, Java, C++, D      |  |
+| 動的型付け | Python, Ruby, JavaScript |  |
+| 静的型付け | C, C#, Java, C++, D      |  |
 
 ---
 
@@ -44,8 +44,8 @@ page_number: true
 
 |      | 手続き型                 | 関数型                         |
 |------|--------------------------|--------------------------------|
-| 動的 | Python, Ruby, JavaScript | Lisp, Scheme, Clojure, Erlang  |
-| 静的 | C, C#, Java, C++, D      |  |
+| 動的型付け | Python, Ruby, JavaScript | Lisp, Scheme, Clojure, Erlang  |
+| 静的型付け | C, C#, Java, C++, D      |  |
 
 ---
 
@@ -53,8 +53,8 @@ page_number: true
 
 |      | 手続き型                 | 関数型                         |
 |------|--------------------------|--------------------------------|
-| 動的 | Python, Ruby, JavaScript | Lisp, Scheme, Clojure, Erlang  |
-| 静的 | C, C#, Java, C++, D      | OCaml, Scala, F#,  __Haskell__ |
+| 動的型付け | Python, Ruby, JavaScript | Lisp, Scheme, Clojure, Erlang  |
+| 静的型付け | C, C#, Java, C++, D      | OCaml, Scala, F#,  __Haskell__ |
 
 ---
 
@@ -299,7 +299,6 @@ True
 False
 
 -- 論理演算
-not True -- False
 not True -- False
 not False -- True
 1 == 1 -- True
